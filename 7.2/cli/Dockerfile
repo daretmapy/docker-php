@@ -25,7 +25,8 @@ RUN docker-php-ext-install \
   opcache \
   pgsql \
   pdo \
-  pdo_pgsql
+  pdo_pgsql \
+  zip
 
 RUN mkdir /root/.ssh
 RUN touch /root/.ssh/config

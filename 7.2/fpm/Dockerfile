@@ -26,6 +26,7 @@ RUN docker-php-ext-install \
   opcache \
   pgsql \
   pdo \
-  pdo_pgsql
+  pdo_pgsql \
+  zip
 
 WORKDIR /var/www/html
